@@ -17,7 +17,7 @@ The input has to be a numpy matrix with only numeric values.
 The latest version can be installed from the master branch using pip:
 
 ```
-pip install git+git://github.com/christophM/rulefit.git
+pip install -U rulefit
 ```
 
 Another option is to clone the repository and install using `python setup.py install` or `python setup.py develop`.
@@ -76,6 +76,7 @@ print(rules)
 - In contrast to the original paper, the generated trees are always fitted with the same maximum depth.
   In the original implementation the maximum depth of the tree are drawn from a distribution each time
 - This implementation is in progress. If you find a bug, don't hesitate to contact me.
+- This a fork of Christoph Molnar's implementation of the RuleFit algorithm which can be found [here](https://github.com/christophM/rulefit). I've uploaded it to PyPI server for easy installation and might make updates to this code in the future
 
 ## Changelog
 All notable changes to this project will be documented here.
