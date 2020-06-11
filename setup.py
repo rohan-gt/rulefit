@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='rulefit',
-      version='0.3',
+      version='0.3.1',
       description='RuleFit algorithm',
       author='Rohan George Thampi',
       author_email='rohangt1591@gmail.com',
