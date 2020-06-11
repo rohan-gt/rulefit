@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='RuleFit',
+setup(name='rulefit',
       version='0.3',
       description='RuleFit algorithm',
       author='Rohan George Thampi',
