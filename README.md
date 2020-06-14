@@ -14,7 +14,7 @@ The input has to be a numpy matrix with only numeric values.
 
 ## Installation
 
-The latest version can be installed from the master branch using pip:
+The latest version can be installed from the PyPI server using pip:
 
 ```
 pip install -U rulefit
